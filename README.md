@@ -165,10 +165,10 @@ public class Ex5 {
             retIndex++;
             index[curIndex]++;
 
-            boolean breakFlag = false;
+            boolean breakFlag = true;
             for (int i = 0; i < lists.length; i++) {
                 if (index[i] != lists[i].length) {
-                    breakFlag = true;
+                    breakFlag = false;
                     break;
                 }
             }
